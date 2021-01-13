@@ -35,17 +35,32 @@ p {
     text-align: center;
 }
 
+
+
 #pizza {
     background-color: darksalmon;
 }
 
+#pizza:hover{
+    background-color: darkturquoise;
+}
+
 #tea {
-    background-color: darkslategray;
+    background-color: lemonchiffon;
+}
+
+#tea:hover{
+    background-color: darkturquoise;
 }
 
 #coffee {
     background-color:rosybrown;
 }
+
+#coffee:hover{
+    background-color:darkturquoise;
+}
+
 
 .item_description {
     margin-top: 0%;
