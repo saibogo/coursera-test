@@ -2,17 +2,28 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color:LavenderBlush;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1 {
     text-align: center;
+    color: MediumBlue;
 }
 
 .row {
     width: 100%;
 }
 
+img {
+    position: relative;
+    right: 0px;
+    float: right;
+}
 
 p {
-    background-color: peru;
+    background-color:Aquamarine;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -24,7 +35,7 @@ p {
 }
 
 .item_title {
-    background-color: peru;
+    background-color:Aquamarine;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -64,6 +75,7 @@ p {
 
 .item_description {
     margin-top: 0%;
+    height: 140px;
 }
 
 
@@ -128,6 +140,7 @@ p {
 /* Medium devices */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float:left;
     
