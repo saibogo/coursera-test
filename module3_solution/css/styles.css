@@ -64,6 +64,31 @@ div>li>a:hover {
     text-transform: uppercase;
 }
 
+#main-container {
+    margin: 2%;
+    width: 95%;
+}
+
+.jumbotron {
+    width: 100%;
+    background-color: papayawhip;
+}
+
+.page-header {
+    color: darkorchid;
+}
+
+section {
+    width: 97%;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+}
+
+section>p {
+    width: 97%;
+    margin-left: 2%;
+}
+
 
 @media (min-width: 576px) {
     .navbar {
