@@ -16,7 +16,7 @@
         <!--HEADER-->
         <header>
             <!-- Классы navbar и navbar-default (базовые классы меню) -->
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default" id="navigation-bar">
             <!-- Контейнер (определяет ширину Navbar) -->
                 <div class="container">
                 <!-- Заголовок -->
@@ -34,15 +34,15 @@
                     <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
                     <div class="collapse navbar-collapse" id="navbar-main">
                     <!-- Содержимое основной части -->
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav d-block d-sm-none">
                             <div class="toggled_item">
                                 <li class="active"><a href="#chicken-shaurma">Shaurma with chicken</a></li>
                             </div>
                             <div class="toggled_item">
-                                <li><a href="#">Shaurma with beef</a></li>
+                                <li><a href="#beef-shaurma">Shaurma with beef</a></li>
                             </div>
                             <div class="toggled_item">
-                                <li><a href="#">Shaurma with lamb</a></li>
+                                <li><a href="#lamb-shaurma">Shaurma with lamb</a></li>
                             </div>
                         </ul>
                     </div>
@@ -81,14 +81,26 @@
                             After that, we wrap the roll in branded packaging and give it to the client, who, looking at this action, is already salivating.
                             It is imperative to serve drinks with shawarma, since the abundance of spices makes you thirsty.
                         </p>
+                        <a href="#navigation-bar" class="back-to-top d-block d-sm-none text-center">Go Top...</a>
                     </section>
                     <br>
-                    <section>
+                    <section id="beef-shaurma">
                         <h3 class="text-center">Shaurma with beef</h3>
+                        <p>
+                            Beef shawarma has a richer taste. The cooking method is exactly the same as that of chicken shawarma.
+                            Low alcohol beer should be offered as related products.
+                        </p>
+                        <a href="#navigation-bar" class="back-to-top d-block d-sm-none text-center">Go Top...</a>
                     </section>
                     <br>
-                    <section>
+                    <section id="lamb-shaurma">
                         <h3 class="text-center">Shaurma with lamb</h3>
+                        <p>
+                            And finally, the classic shawarma - with lamb.
+                            Undoubtedly, the meat of a young lamb gives the dish tenderness and such a inviting taste of a field fire somewhere in the distant steppe...
+                            This dish is exclusively accompanied by tea
+                        </p>
+                        <a href="#navigation-bar" class="back-to-top d-block d-sm-none text-center">Go Top...</a>
                     </section>
                 </div>
           </div>

@@ -84,9 +84,27 @@ section {
     border-radius: 7px;
 }
 
+section>h3 {
+    color: hotpink;
+}
+
 section>p {
     width: 97%;
     margin-left: 2%;
+    font-style: italic;
+    text-indent: 1em;
+    color: darkslateblue;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: indigo;
+}
+
+.back-to-top:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: crimson;
 }
 
 
