@@ -6,41 +6,34 @@ body {
     background-color: PapayaWhip;
 }
 
-#header-nav {
-    background-color: DarkKhaki;
-    border-radius: 0;
-    border: 0;
-    height: 50px;
-}
-
-h1 {
-    font-size: 20px;
-    color: seagreen;
-}
-
-.navbar-header {
+.navbar-brand {
     position: absolute;
     left: 20px;
-   
+    top: 10px;
 }
 
-
-.navbar-brand a:hover{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-#menubutton {
+#mainbutton {
     position: absolute;
     right: 20px;
-    top: 5px;
-    color:indigo;
-    background-color: olive;
-    border-color: seagreen;
+    top: 10px;
 }
 
-ul {
+#navbar-main {
     position: absolute;
-    left: 0;
+    top: 40px;
+    width: 100%;
+    text-align: center;
 }
 
+
+@media (min-width: 576px) {
+    .navbar {
+        height: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar {
+        height: 120px;
+    }
+}
