@@ -10,6 +10,28 @@ body {
     position: absolute;
     left: 20px;
     top: 10px;
+    color: blueviolet;
+}
+
+a.navbar-brand:hover {
+    text-transform:uppercase;
+    color:crimson;
+}
+
+button.navbar-toggle {
+    border-color: blueviolet;
+    border-radius: 7px;
+    color: blueviolet;
+}
+
+button.navbar-toggle:hover {
+    background-color:darksalmon;
+}
+
+button.navbar-toggle:target {
+    border-color: darkviolet;
+    border-radius: 7px;
+    color: blueviolet;
 }
 
 #mainbutton {
@@ -20,9 +42,26 @@ body {
 
 #navbar-main {
     position: absolute;
-    top: 40px;
+    top: 50px;
     width: 100%;
     text-align: center;
+}
+
+.toggled_item{
+    width: 90%;
+    border: 1px solid blueviolet;
+    background-color:darksalmon;
+}
+
+div>li>a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+div>li>a:hover {
+    text-decoration: none;
+    color: crimson;
+    text-transform: uppercase;
 }
 
 
